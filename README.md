@@ -34,5 +34,5 @@ var file = new Blob([output],
 fakeelem.href = URL.createObjectURL(file);
 fakeelem.download = title+'.json';
 fakeelem.click();
-URL.revokeObjectURL(fakelem.href);
+URL.revokeObjectURL(fakeelem.href);
 ```
